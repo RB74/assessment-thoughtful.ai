@@ -9,7 +9,7 @@ Extra Setup Included
 * Added a minimal test/ directory with Node’s native test runner
 
 ## Project Structure
-    sort-package/
+    project/
     |
     |---package.json
     |---tsconfig.json
