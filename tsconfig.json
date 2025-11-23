@@ -9,6 +9,8 @@
     // See also https://aka.ms/tsconfig/module
     "module": "es2022",
     "target": "es2022",
+    "rootDir": "src",
+    "outDir": "dist",
     "types": [],
     // For nodejs:
     // "lib": ["esnext"],
