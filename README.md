@@ -1,11 +1,6 @@
 ## Overview
 This project is written in TypeScript, I added a small extra setup to support compilation and testing. I used a standard tsconfig.json to compile the TypeScript source into a dist/ directory.
-For testing, I leveraged Node22's built-in test runner to support assertions and coverage. This approache keeps the solution lightweight, dependency-free, and easy to run with a single command.
-
-Approaches for extra setup:
-* initialized TypeScript
-* compiled the .ts file into dist/
-* added a small test/ directory with Node’s native test files
+For testing, I leveraged Node 22's built-in test runner to support assertions and coverage. This approache keeps the solution lightweight, dependency-free, and easy to run with a single command.
 
 Extra Setup Included
 
@@ -15,6 +10,7 @@ Extra Setup Included
 
 ## Project Structure
     sort-package/
+    |
     |---package.json
     |---tsconfig.json
     |
